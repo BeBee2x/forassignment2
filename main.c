@@ -331,7 +331,7 @@ void register_account(){
         }
     }
     int point=findingemail(email);
-    if(point!=1){
+    if(point!=-1){
         printf("Your email is already registered\n");
         globalindex-=1;
         home();
